@@ -70,7 +70,7 @@ jobs.forEach((data) => {
       console.log(`Notification job ${job.id} completed`);
     });
 
-    job.on('faild', (err) => {
+    job.on('failed', (err) => {
       console.log(`Notification job ${job.id} failed: ${err}`);
     });
 
